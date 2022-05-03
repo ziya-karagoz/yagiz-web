@@ -22,7 +22,7 @@ const App = () => {
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
-
+  // Deneme
   return (
     <div>
       <Navigation />
