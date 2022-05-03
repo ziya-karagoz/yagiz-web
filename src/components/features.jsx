@@ -60,7 +60,11 @@ export const Features = (props) => {
                   </a>
                 </div>
                 <div class='features-side-image' style={{ width: "100%" }}>
-                  <img src='./img/blk.jpg' style={{ width: "100%" }} alt='' />
+                  <img
+                    src='./img/blkchn2.gif'
+                    style={{ width: "100%" }}
+                    alt=''
+                  />
                 </div>
               </div>
             </div>

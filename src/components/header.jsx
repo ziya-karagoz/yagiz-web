@@ -1,20 +1,25 @@
+import { motion } from "framer-motion";
+
 export const Header = (props) => {
+  const item = {
+    hidden: { opacity: 0 },
+    show: { opacity: 1 },
+  };
   return (
     <header id='header'>
       <div className='intro'>
         <div className='overlay'>
           <div className='container'>
             <div className='row'>
-              <div
+              <motion.div
+                variants={item}
+                initial={item.hidden}
+                transition={{ repeat: 0, duration: 2 }}
                 animate={{
-                  x: 0,
-                  backgroundColor: "#000",
-                  boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.2)",
-                  position: "fixed",
-                  transitionEnd: {
-                    display: "none",
-                  },
+                  backgroundColor: "transparent",
+                  opacity: 1,
                 }}
+                exit={{ opacity: 1 }}
                 className='col-md-8 col-md-offset-2 intro-text'
               >
                 <h1>
@@ -28,7 +33,7 @@ export const Header = (props) => {
                 >
                   Learn More
                 </a>{" "}
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>
