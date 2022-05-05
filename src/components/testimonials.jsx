@@ -14,7 +14,7 @@ export const Testimonials = (props) => {
             <a href='#testimonials' class='link-block'>
               <div class=''>
                 <div class='webinar-image-container'>
-                  <img src='./img/blk.jpg'></img>
+                  <img src='./img/blk.jpg' alt=''></img>
                 </div>
                 <h1 class='dundas-blue-text-long'>Blockchain nedir?</h1>
 
@@ -57,7 +57,7 @@ export const Testimonials = (props) => {
             <a href='#testimonials' class='link-block'>
               <div class=''>
                 <div class='webinar-image-container'>
-                  <img src='./img/blk.jpg'></img>
+                  <img src='./img/blk.jpg' alt=''></img>
                 </div>
                 <h1 class='dundas-blue-text-long'>Blockchain nedir?</h1>
 
