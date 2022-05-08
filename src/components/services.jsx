@@ -1,5 +1,4 @@
 import Slider from "react-slick";
-import MultipleItems from "./carousel";
 export const Services = (props) => {
   return (
     <div id='services' className='text-center'>
