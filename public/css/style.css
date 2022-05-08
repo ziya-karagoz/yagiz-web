@@ -87,6 +87,7 @@ hr {
   color: #333;
   text-transform: uppercase;
 }
+
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
@@ -147,6 +148,12 @@ hr {
 
 .section-title {
   margin-bottom: 70px;
+}
+
+@media only screen and (max-width: 1026px) {
+  .navlogo {
+    display: none;
+  }
 }
 .section-title h2 {
   position: relative;
@@ -322,7 +329,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #999ba6 0%, #000000 100%);
   color: #fff;
 }
 #services .service-desc {
@@ -346,7 +353,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #c2c2c5 0%, #585c61 100%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);

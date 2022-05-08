@@ -1,4 +1,7 @@
-import "../../src/styles/featurestyle.css";
+import "../../src/styles/featurestyle.scss";
+import { motion } from "framer-motion";
+import React, { useRef } from "react";
+
 export const Features = (props) => {
   return (
     <div
@@ -18,9 +21,20 @@ export const Features = (props) => {
                   height: "auto",
                 }}
               >
-                <div
+                <motion.div
                   class='features-side-text'
                   style={{ marginRight: "30px", textAlign: "center" }}
+                  initial={{ opacity: 0 }}
+                  whileInView={{
+                    x: [-1000, 0],
+                    opacity: 1,
+                    transition: {
+                      type: "tween",
+                      bounce: 0.9,
+                      duration: 1,
+                    },
+                  }}
+                  viewport={{ once: true, amount: 0.8 }}
                 >
                   <h2 class='title-section'>
                     Profesyonel{" "}
@@ -58,14 +72,19 @@ export const Features = (props) => {
                   <a href='#services' class='btn btn-primary mt-4'>
                     Tüm Hizmetlere Göz Atın
                   </a>
-                </div>
-                <div class='features-side-image' style={{ width: "100%" }}>
+                </motion.div>
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1, transition: { duration: 1.5 } }}
+                  class='features-side-image'
+                  style={{ width: "100%" }}
+                >
                   <img
                     src='./img/blkchn2.gif'
                     style={{ width: "100%" }}
                     alt=''
                   />
-                </div>
+                </motion.div>
               </div>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/sliderstyle.css";
-import "../styles/slider.css";
+import "../styles/sliderstyle.scss";
+import "../styles/slider.scss";
 
 export const Testimonials = (props) => {
   return (
