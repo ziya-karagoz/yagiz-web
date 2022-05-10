@@ -1,4 +1,5 @@
-import Slider from "react-slick";
+import Carousel from "../carousel";
+
 export const Services = (props) => {
   return (
     <div id='services' className='text-center'>
@@ -10,6 +11,9 @@ export const Services = (props) => {
             Devlet ve özel sektördeki bir çok faaliyet alanlarımız aşağıda yer
             almaktadır.
           </p>
+          <div>
+            <Carousel />
+          </div>
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-import "../../src/styles/featurestyle.scss";
+import "../../styles/featurestyle.scss";
 import { motion } from "framer-motion";
 import React, { useRef } from "react";
 
@@ -76,6 +76,7 @@ export const Features = (props) => {
                 <motion.div
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1, transition: { duration: 1.5 } }}
+                  viewport={{ once: true, amount: 0.8 }}
                   class='features-side-image'
                   style={{ width: "100%" }}
                 >

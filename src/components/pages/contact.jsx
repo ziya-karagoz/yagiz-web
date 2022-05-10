@@ -151,7 +151,7 @@ export const Contact = (props) => {
         <div className='container text-center'>
           <p>
             &copy; 2022 Yagiz Bilişim Team. Design by{" "}
-            <a href='http://www.yagizbilisim.com' rel='nofollow'>
+            <a href='http://www.yagizyazilim.com' rel='nofollow'>
               Yagiz Dijital Dönüşüm Bilişim
             </a>
           </p>

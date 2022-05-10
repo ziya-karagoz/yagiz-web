@@ -1,8 +1,8 @@
 import React from "react";
-import "../styles/sliderstyle.scss";
-import "../styles/slider.scss";
+import "../../styles/sliderstyle.scss";
+import "../../styles/slider.scss";
 
-export const Testimonials = (props) => {
+export const Blog = (props) => {
   return (
     <div id='testimonials'>
       <div className='overlay'>

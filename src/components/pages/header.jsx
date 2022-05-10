@@ -1,10 +1,6 @@
 import { motion } from "framer-motion";
 
 export const Header = (props) => {
-  const item = {
-    hidden: { opacity: 0 },
-    show: { opacity: 1 },
-  };
   return (
     <header id='header'>
       <div className='intro'>
@@ -12,14 +8,9 @@ export const Header = (props) => {
           <div className='container'>
             <div className='row'>
               <motion.div
-                variants={item}
-                initial={item.hidden}
-                transition={{ repeat: 0, duration: 2 }}
-                animate={{
-                  backgroundColor: "transparent",
-                  opacity: 1,
-                }}
-                exit={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1, transition: { duration: 1.5 } }}
+                viewport={{ once: true, amount: 0.8 }}
                 className='col-md-8 col-md-offset-2 intro-text'
               >
                 <h1>

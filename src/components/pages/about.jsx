@@ -8,6 +8,7 @@ export const About = (props) => {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1, transition: { duration: 1.5 } }}
+            viewport={{ once: true, amount: 0.8 }}
             className='col-xs-12 col-md-6'
           >
             {" "}
@@ -17,7 +18,8 @@ export const About = (props) => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{
-                x: [700, 0],
+                x: [300, 0],
+
                 opacity: 1,
                 transition: {
                   type: "tween",
@@ -25,6 +27,7 @@ export const About = (props) => {
                   duration: 1,
                 },
               }}
+              viewport={{ once: true, amount: 0.8 }}
               className='about-text'
             >
               <h2>Hakkımızda</h2>
