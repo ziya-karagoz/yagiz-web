@@ -11,7 +11,7 @@ export const Services = (props) => {
             Devlet ve özel sektördeki bir çok faaliyet alanlarımız aşağıda yer
             almaktadır.
           </p>
-          <div>
+          <div style={{ height: "400px" }}>
             <Carousel />
           </div>
         </div>

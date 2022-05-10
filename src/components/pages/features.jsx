@@ -31,7 +31,7 @@ export const Features = (props) => {
                     transition: {
                       type: "tween",
                       bounce: 0.9,
-                      duration: 1,
+                      duration: 0.8,
                     },
                   }}
                   viewport={{ once: true, amount: 0.8 }}
