@@ -478,8 +478,8 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #62657e 0%, #5f7185 100%);
-  color: rgba(255, 255, 255, 0.75);
+  background: rgb(29,38,115);
+background: linear-gradient(90deg, rgba(29,38,115,1) 0%, rgba(41,131,226,1) 49%, rgba(27,20,100,1) 100%);
 }
 #contact .section-title {
   margin-bottom: 40px;
@@ -496,7 +496,7 @@ header .intro-text {
 #contact .section-title h2::after {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  background: #fff;
   height: 4px;
   width: 60px;
   bottom: 0;

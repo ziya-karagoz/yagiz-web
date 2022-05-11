@@ -37,108 +37,114 @@ export const Contact = (props) => {
   };
   return (
     <div>
-      <div id='contact'>
-        <div className='container'>
-          <div className='col-md-8'>
-            <div className='row'>
-              <div className='section-title'>
+      <div id="contact">
+        <div className="container">
+          <div className="col-md-8">
+            <div className="row">
+              <div className="section-title">
                 <h2>BİZE ULAŞIN</h2>
-                <p>Önerilerinizi, şikayetlerinizi önemsiyoruz..</p>
+                <p  style={{ color: "#fff"}}>Önerilerinizi, şikayetlerinizi önemsiyoruz..</p>
               </div>
-              <form name='sentMessage' validate onSubmit={handleSubmit}>
-                <div className='row'>
-                  <div className='col-md-6'>
-                    <div className='form-group'>
+              <form name="sentMessage" validate onSubmit={handleSubmit}>
+                <div className="row">
+                  <div className="col-md-6">
+                    <div className="form-group">
                       <input
-                        type='text'
-                        id='name'
-                        name='name'
-                        className='form-control'
-                        placeholder='İsim'
+                        type="text"
+                        id="name"
+                        name="name"
+                        className="form-control"
+                        placeholder="İsim"
                         required
                         onChange={handleChange}
                       />
-                      <p className='help-block text-danger'></p>
+                      <p className="help-block text-danger"></p>
                     </div>
                   </div>
-                  <div className='col-md-6'>
-                    <div className='form-group'>
+                  <div className="col-md-6">
+                    <div className="form-group">
                       <input
-                        type='email'
-                        id='email'
-                        name='email'
-                        className='form-control'
-                        placeholder='Email'
+                        type="email"
+                        id="email"
+                        name="email"
+                        className="form-control"
+                        placeholder="Email"
                         required
                         onChange={handleChange}
                       />
-                      <p className='help-block text-danger'></p>
+                      <p className="help-block text-danger"></p>
                     </div>
                   </div>
                 </div>
-                <div className='form-group'>
+                <div className="form-group">
                   <textarea
-                    name='message'
-                    id='message'
-                    className='form-control'
-                    rows='4'
-                    placeholder='Mesaj'
+                    name="message"
+                    id="message"
+                    className="form-control"
+                    rows="4"
+                    placeholder="Mesaj"
                     required
                     onChange={handleChange}
                   ></textarea>
-                  <p className='help-block text-danger'></p>
+                  <p className="help-block text-danger"></p>
                 </div>
-                <div id='success'></div>
-                <button type='submit' className='btn btn-custom btn-lg'>
+                <div id="success"></div>
+                <button type="submit" className="btn btn-custom btn-lg">
                   Mesaj Gönder
                 </button>
               </form>
             </div>
           </div>
-          <div className='col-md-3 col-md-offset-1 contact-info'>
-            <div className='contact-item'>
+          <div className="col-md-3 col-md-offset-1 contact-info">
+            <div className="contact-item">
               <h3>İletişim Bilgileri</h3>
               <p>
                 <span>
-                  <i className='fa fa-map-marker'></i> Adres
+                  <i className="fa fa-map-marker"></i> Adres
                 </span>
-                {props.data ? props.data.address : "loading"}
+                <div style={{ color: "#fff", opacity: "0.8" }}>
+                  {props.data ? props.data.address : "loading"}
+                </div>
               </p>
             </div>
-            <div className='contact-item'>
+            <div className="contact-item">
               <p>
                 <span>
-                  <i className='fa fa-phone'></i> Phone
+                  <i className="fa fa-phone"></i> Phone
                 </span>{" "}
-                {props.data ? props.data.phone : "loading"}
+                <div style={{ color: "#fff", opacity: "0.8" }}>
+                  {props.data ? props.data.phone : "loading"}
+                </div>
               </p>
             </div>
-            <div className='contact-item'>
+            <div className="contact-item">
               <p>
                 <span>
-                  <i className='fa fa-envelope-o'></i> Email
+                  <i className="fa fa-envelope-o"></i> Email
                 </span>{" "}
-                {props.data ? props.data.email : "loading"}
+                <div style={{ color: "#fff", opacity: "0.8" }}>
+                  {props.data ? props.data.email : "loading"}
+                </div>
               </p>
             </div>
           </div>
-          <div className='col-md-12'>
-            <div className='row'>
-              <div className='social'>
+          <div className="col-md-12">
+            <div className="row">
+              <div className="social">
                 <ul>
                   <li>
                     <a href={props.data ? props.data.facebook : "/"}>
-                      <i className='fa fa-facebook'></i>
+                      <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
                     <a href={props.data ? props.data.twitter : "/"}>
-                      <i className='fa fa-twitter'></i>
+                      <i className="fa fa-twitter"></i>
                     </a>
                   </li>
                   <li>
                     <a href={props.data ? props.data.youtube : "/"}>
-                      <i className='fa fa-youtube'></i>
+                      <i className="fa fa-youtube"></i>
                     </a>
                   </li>
                 </ul>
@@ -147,11 +153,11 @@ export const Contact = (props) => {
           </div>
         </div>
       </div>
-      <div id='footer'>
-        <div className='container text-center'>
+      <div id="footer">
+        <div className="container text-center">
           <p>
             &copy; 2022 Yagiz Bilişim Team. Design by{" "}
-            <a href='http://www.yagizyazilim.com' rel='nofollow'>
+            <a href="http://www.yagizyazilim.com" rel="nofollow">
               Yagiz Dijital Dönüşüm Bilişim
             </a>
           </p>
