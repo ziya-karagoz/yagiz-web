@@ -85,6 +85,34 @@ const Carousel = () => {
             </p>
           </div>
         </div>
+        <div className='carousel-item'>
+          <FaGithub className='carousel-item-icon' />
+          <div className='carousel-item-title'>
+            <h3>Özel Yazılım</h3>
+          </div>
+
+          <div className='carousel-item-paragraph'>
+            <p className='deneme' style={{ color: "white" }}>
+              {" "}
+              Paket Programlar ile istediği proje yönetimini sağlayaman firmalar
+              için özel olarak yazılımlar geliştiriyoruz.{" "}
+            </p>
+          </div>
+        </div>
+        <div className='carousel-item'>
+          <FaGithub className='carousel-item-icon' />
+          <div className='carousel-item-title'>
+            <h3>Özel Yazılım</h3>
+          </div>
+
+          <div className='carousel-item-paragraph'>
+            <p className='deneme' style={{ color: "white" }}>
+              {" "}
+              Paket Programlar ile istediği proje yönetimini sağlayaman firmalar
+              için özel olarak yazılımlar geliştiriyoruz.{" "}
+            </p>
+          </div>
+        </div>
       </Slider>
     </div>
   );
