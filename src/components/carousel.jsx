@@ -1,9 +1,12 @@
 import Slider from "react-slick";
 import "../styles/carouselstyle.scss";
 import React, { useEffect } from "react";
+import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 
 const Carousel = () => {
+  useEffect(() => {}, []);
+
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
@@ -32,7 +35,7 @@ const Carousel = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 1800,
     pauseOnHover: true,
     centerPadding: "30px",
     nextArrow: <SampleNextArrow />,
@@ -58,31 +61,28 @@ const Carousel = () => {
         <div className='carousel-item'>
           <FaGithub className='carousel-item-icon' />
           <div className='carousel-item-title'>
-            <h3>asdfasafasg</h3>
+            <h3>Özel Yazılım</h3>
           </div>
           <div className='carousel-item-paragraph'>
-            <p style={{ color: "white" }}> asfas</p>
-          </div>
-        </div>
-        <div className='carousel-item'>
-          <FaGithub className='carousel-item-icon' />
-          <div className='carousel-item-title'>
-            <h3>asdfasafasg</h3>
-          </div>
-          <div className='carousel-item-paragraph'>
-            <h3 style={{ color: "white" }}>
+            <p className='deneme' style={{ color: "white" }}>
               {" "}
-              asdfasafasgasdfasafasgasdfasafasg
-            </h3>
+              Paket Programlar ile istediği proje yönetimini sağlayaman firmalar
+              için özel olarak yazılımlar geliştiriyoruz.{" "}
+            </p>
           </div>
         </div>
         <div className='carousel-item'>
           <FaGithub className='carousel-item-icon' />
           <div className='carousel-item-title'>
-            <h3>asdfasafasg</h3>
+            <h3>Özel Yazılım</h3>
           </div>
+
           <div className='carousel-item-paragraph'>
-            <p style={{ color: "white" }}> asfas</p>
+            <p className='deneme' style={{ color: "white" }}>
+              {" "}
+              Paket Programlar ile istediği proje yönetimini sağlayaman firmalar
+              için özel olarak yazılımlar geliştiriyoruz.{" "}
+            </p>
           </div>
         </div>
       </Slider>
