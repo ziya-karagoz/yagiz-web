@@ -26,8 +26,11 @@
   height: 60%;
   display: block;
   justify-content: center;
-  background: linear-gradient(to bottom right, #5ee0f1 0%, #e3a0d5 100%);
-  opacity: 0.7;
+  background: linear-gradient(
+    to bottom right,
+    rgba(94, 224, 241, 0.5) 0%,
+    rgba(227, 161, 213, 0.5) 100%
+  );
   text-align: justify;
   padding: 10px;
 }
