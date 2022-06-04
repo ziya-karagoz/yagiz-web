@@ -3,8 +3,8 @@
   position: relative;
   height: 100%;
   border: 1px solid #fefefe;
-  border-top-left-radius: 6vw;
-  border-top-right-radius: 6vw;
+  border-top-left-radius: 2vw;
+  border-top-right-radius: 2vw;
 }
 .carousel-item:hover {
   cursor: pointer;
@@ -22,15 +22,11 @@
   align-items: center;
   position: absolute;
   bottom: 0px;
-  width: 100%;
+  width: 100% !important;
   height: 60%;
   display: block;
   justify-content: center;
-  background: linear-gradient(
-    to bottom right,
-    rgba(94, 224, 241, 0.5) 0%,
-    rgba(227, 161, 213, 0.5) 100%
-  );
+
   text-align: justify;
   padding: 10px;
 }
@@ -38,6 +34,7 @@
 .carousel-item-title {
   height: 15%;
 }
-.deneme {
+.paragraph {
+  width: 100% !important;
   opacity: 1 !important;
 }
