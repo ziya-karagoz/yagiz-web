@@ -1,15 +1,18 @@
 import Slider from "react-slick";
 import "../styles/carouselstyle.scss";
-import React, { useEffect } from "react";
-import { motion } from "framer-motion";
-import { FaGithub } from "react-icons/fa";
-import {AiOutlineSetting,AiOutlineDatabase,AiOutlineCloudServer} from "react-icons/ai";
-import {CgWebsite} from "react-icons/cg";
-import {BiCodeCurly} from "react-icons/bi";
-//BiCodeCurly
+import React, { useEffect, useState } from "react";
+import {
+  AiOutlineSetting,
+  AiOutlineMobile,
+  AiOutlineDatabase,
+} from "react-icons/ai";
+import { CgWebsite } from "react-icons/cg";
+import { BiCodeCurly } from "react-icons/bi";
 
-const Carousel = () => {
-  useEffect(() => {}, []);
+const Carousel = ({ data }) => {
+  useEffect(() => {
+    console.log(data);
+  }, []);
 
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -36,7 +39,7 @@ const Carousel = () => {
   const settings = {
     dots: true,
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 1800,
@@ -48,102 +51,92 @@ const Carousel = () => {
       {
         breakpoint: 1424,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
           slidesToScroll: 2,
-        }
+        },
       },
       {
         breakpoint: 1000,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
-        }
+        },
       },
       {
         breakpoint: 800,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
-        }
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
     <div>
       <Slider {...settings} className='carousel-self'>
         <div className='carousel-item'>
-          <AiOutlineCloudServer className='carousel-item-icon' />
+          <AiOutlineMobile className='carousel-item-icon' />
           <div className='carousel-item-title'>
-            <h3>Cloud Server</h3>
+            <h3>{data ? data[0].name : "Loading"}</h3>
           </div>
           <div className='carousel-item-paragraph'>
             <p className='paragraph' style={{ color: "white" }}>
-              {" "}
-              Paket Programlar ile istediği proje yönetimini sağlayaman firmalar
-              için özel olarak yazılımlar geliştiriyoruz.{" "}
+              {data ? data[0].text : "Loading"}
             </p>
           </div>
         </div>
         <div className='carousel-item'>
           <AiOutlineSetting className='carousel-item-icon' />
           <div className='carousel-item-title'>
-            <h3>Service</h3>
+            <h3>{data ? data[1].name : "Loading"}</h3>
           </div>
           <div className='carousel-item-paragraph'>
             <p className='paragraph' style={{ color: "white" }}>
-              {" "}
-              Paket Programlar ile istediği proje yönetimini sağlayaman firmalar
-              için özel olarak yazılımlar geliştiriyoruz.{" "}
+              {data ? data[1].text : "Loading"}
             </p>
           </div>
         </div>
         <div className='carousel-item'>
           <CgWebsite className='carousel-item-icon' />
           <div className='carousel-item-title'>
-            <h3>Web Site</h3>
+            <h3>{data ? data[2].name : "Loading"}</h3>
           </div>
 
           <div className='carousel-item-paragraph'>
             <p className='paragraph' style={{ color: "white" }}>
-              {" "}
-              Paket Programlar ile istediği proje yönetimini sağlayaman firmalar
-              için özel olarak yazılımlar geliştiriyoruz.{" "}
+              {data ? data[2].text : "Loading"}
             </p>
           </div>
         </div>
         <div className='carousel-item'>
           <AiOutlineDatabase className='carousel-item-icon' />
           <div className='carousel-item-title'>
-            <h3>Database</h3>
+            <h3>{data ? data[3].name : "Loading"}</h3>
           </div>
 
           <div className='carousel-item-paragraph'>
             <p className='paragraph' style={{ color: "white" }}>
-              {" "}
-              Paket Programlar ile istediği proje yönetimini sağlayaman firmalar
-              için özel olarak yazılımlar geliştiriyoruz.{" "}
+              {data ? data[3].text : "Loading"}
             </p>
           </div>
         </div>
         <div className='carousel-item'>
           <BiCodeCurly className='carousel-item-icon' />
           <div className='carousel-item-title'>
-            <h3>Software Support</h3>
+            <h3>{data ? data[4].name : "Loading"}</h3>
           </div>
 
           <div className='carousel-item-paragraph'>
             <p className='paragraph' style={{ color: "white" }}>
-              {" "}
-              Paket Programlar ile istediği proje yönetimini sağlayaman firmalar
-              için özel olarak yazılımlar geliştiriyoruz.{" "}
+              {data ? data[4].text : "Loading"}
             </p>
           </div>
         </div>

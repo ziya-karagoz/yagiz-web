@@ -67,16 +67,6 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Özel Yazılım",
-      "text": "Paket Programlar ile istediği proje yönetimini sağlayaman firmalar için özel olarak yazılımlar geliştiriyoruz. "
-    },
-    {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Web Tasarım",
-      "text": "Dijital dünyanın trendlerini yakından takip ediyor; modern tasarımlarla talep ve isteklerinize yönelik kullanıcı deneyimi odaklı tasarımlar çıkarıyoruz."
-    },
-    {
       "icon": "fa fa-cloud-download",
       "name": "Mobil Uygulama",
       "text": "Hayal ettiğiniz projeleri mobil uygulama olarak hayata geçiriyoruz. Dijital dünyanın trendleri doğrultusunda kullanıcı davranışlarına uygun uygulama ara yüzleriyle kullanıcılara son derece kullanışlı uygulamalar sunuyoruz."
@@ -87,14 +77,19 @@
       "text": "Girişimlerinizi ihtiyaç duydukları alanlarda destekleyerek hızla büyümelerini sağlıyoruz. Girişimcilerin fikirlerine veya şirketlerine yenilikçi stratejiler geliştirmek için farklı alanlarda çözümler üretiyoruz."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Veri Madenciliği Çözümleri",
-      "text": "İnternette bulunan milyonlarca bilgiden işe yarayanı bulmak haftalarınızı harcar. Veri madenciliği hizmetimiz ile haftalar sürecek olan bilgiyi bulma, işleme ve değerlendirme sürecini biz yapıyoruz."
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Web Tasarım",
+      "text": "Dijital dünyanın trendlerini yakından takip ediyor; modern tasarımlarla talep ve isteklerinize yönelik kullanıcı deneyimi odaklı tasarımlar çıkarıyoruz."
     },
     {
       "icon": "fa fa-pie-chart",
       "name": "Veritabanı Yazılımları",
       "text": "Bilgisayar sistemlerinin altyapısını oluşturan veritabanı ile ulaşılması ve depolanması zor olan bilgiye erişim kolaylığı sağlar. Firmanızın veritabanı yazılımının kurulumu ve desteği konularında yanınızdayız."
+    },
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Özel Yazılım",
+      "text": "Paket Programlar ile istediği proje yönetimini sağlayaman firmalar için özel olarak yazılımlar geliştiriyoruz. "
     }
   ],
   "Testimonials": [
@@ -137,26 +132,8 @@
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
-  "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Güvenli Altyapı",
-      "text": "Blok zincirleri asla değiştirilemez!"
-    },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Şeffaf İşlemler",
-      "text": "Blockchain altyapısından dolayı şeffaf işlemler sunar."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Hız",
-      "text": "Blockchain yapısı gereği performansı yüksek ve hızlıdır."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Saklılık",
-      "text": "Blockchain saklılık içerisinde varlığını sürdürür."
-    }
-  ]
+  "Features": {
+    "paragraph1": "Dijitalleşme, yönetim anlayışında ve iş yapış biçiminde köklü değişimler yaratıyor. Yeni nesil teknolojiler ile geliştirilen otomasyonlar büyük avantajlar sağlıyor. Bununla birlikte bu avantajlar özelleştirme ve entegrasyon ihtiyaçlarının karşılanmasını gerektiriyor.",
+    "paragraph2": "Biz Bu durumda devreye girerek blok zinciri teknolojisinin yalnızca kripto piyasasında değil bütün işlemlere entegre edilmesi için gereken teknolojik adımları atarak dijital dönüşümde dünyada aktif rol oynamak istiyoruz."
+  }
 }

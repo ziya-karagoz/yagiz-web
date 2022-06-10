@@ -45,29 +45,8 @@ export const Features = (props) => {
                     İçin Yanınızdayız...
                   </h2>
 
-                  <p>
-                    Dijitalleşme, yönetim anlayışında ve iş yapış biçiminde
-                    köklü değişimler yaratıyor. Yeni nesil teknolojiler ile
-                    geliştirilen otomasyonlar büyük avantajlar sağlıyor. Bununla
-                    birlikte bu avantajlar özelleştirme ve entegrasyon
-                    ihtiyaçlarının karşılanmasını gerektiriyor.{" "}
-                  </p>
-
-                  <p>
-                    Dijitalleşme, yönetim anlayışında ve iş yapış biçiminde
-                    köklü değişimler yaratıyor. Yeni nesil teknolojiler ile
-                    geliştirilen otomasyonlar büyük avantajlar sağlıyor. Bununla
-                    birlikte bu avantajlar özelleştirme ve entegrasyon
-                    ihtiyaçlarının karşılanmasını gerektiriyor.{" "}
-                  </p>
-
-                  <p>
-                    Dijitalleşme, yönetim anlayışında ve iş yapış biçiminde
-                    köklü değişimler yaratıyor. Yeni nesil teknolojiler ile
-                    geliştirilen otomasyonlar büyük avantajlar sağlıyor. Bununla
-                    birlikte bu avantajlar özelleştirme ve entegrasyon
-                    ihtiyaçlarının karşılanmasını gerektiriyor.{" "}
-                  </p>
+                  <p>{props.data ? props.data.paragraph1 : "Loading"}</p>
+                  <p>{props.data ? props.data.paragraph2 : "Loading"}</p>
 
                   <a href='#services' class='btn btn-primary mt-4'>
                     Tüm Hizmetlere Göz Atın

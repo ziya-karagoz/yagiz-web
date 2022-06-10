@@ -11,7 +11,7 @@ export const Services = (props) => {
             almaktadır.
           </p>
           <div style={{ height: "400px" }}>
-            <Carousel />
+            <Carousel data={props.data} />
           </div>
         </div>
       </div>

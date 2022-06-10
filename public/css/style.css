@@ -329,7 +329,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #999ba6 0%, #000000 100%);
+  background: linear-gradient(to right, #9ba7eb 0%, #f59fe5 100%);
   color: #fff;
 }
 #services .service-desc {
@@ -478,8 +478,13 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: rgb(29,38,115);
-background: linear-gradient(90deg, rgba(29,38,115,1) 0%, rgba(41,131,226,1) 49%, rgba(27,20,100,1) 100%);
+  background: rgb(29, 38, 115);
+  background: linear-gradient(
+    90deg,
+    rgba(29, 38, 115, 1) 0%,
+    rgba(41, 131, 226, 1) 49%,
+    rgba(27, 20, 100, 1) 100%
+  );
 }
 #contact .section-title {
   margin-bottom: 40px;

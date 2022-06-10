@@ -57,23 +57,29 @@ export const Blog = (props) => {
             <a href='#testimonials' class='link-block'>
               <div class=''>
                 <div class='webinar-image-container'>
-                  <img src='./img/ux-ui.jpg' alt=''></img>
+                  <img src='./img/ux.jpg' alt=''></img>
                 </div>
                 <h1 class='dundas-blue-text-long'>UX ve UI nedir?</h1>
 
                 <div class='webinar-content-box'>
                   <p>
-                    <span style={{ fontWeight: 900 }}>
-                      {" "}
-                      UX :{" "} 
-                    </span>{" "}
-                    UX, kullanıcı deneyimi tasarımı yapmak anlamına gelir. Sitenin veya uygulamanın kullanıcılarının kullandıkları hizmet ile daha rahat bir şekilde etkileşime geçebilmeleri ile ilgilenir. Kullanıcının hizmeti kullanmaya başlaması, etkileşime girmesi, içerisindeki bileşenleri kullanabilmesi ve o hizmeti kullanma amacını rahatlıkla yerine getirebilmesi için önemlidir.
+                    <span style={{ fontWeight: 900 }}> UX : </span> UX,
+                    kullanıcı deneyimi tasarımı yapmak anlamına gelir. Sitenin
+                    veya uygulamanın kullanıcılarının kullandıkları hizmet ile
+                    daha rahat bir şekilde etkileşime geçebilmeleri ile
+                    ilgilenir. Kullanıcının hizmeti kullanmaya başlaması,
+                    etkileşime girmesi, içerisindeki bileşenleri kullanabilmesi
+                    ve o hizmeti kullanma amacını rahatlıkla yerine
+                    getirebilmesi için önemlidir.
                     <br />
                     <br />
-                    <span style={{ fontWeight: 900 }}>
-                     UI :
-                    </span>{" "}
-                    UI, kullanıcı arayüzü anlamına gelmektedir ve kullanıcıların sitede rahatça dolaşması ve sitede daha uzun süre kalması site içeriklerine daha rahat ulaşması gibi deneyim odaklı iyileştirmeler amaçlanır. UI ne demek diye sorduğumuzda aklımıza ilk gelecek olan şey kısaca kullanıcı konforu odaklı görsel tasarımlardır.{" "}
+                    <span style={{ fontWeight: 900 }}>UI :</span> UI, kullanıcı
+                    arayüzü anlamına gelmektedir ve kullanıcıların sitede
+                    rahatça dolaşması ve sitede daha uzun süre kalması site
+                    içeriklerine daha rahat ulaşması gibi deneyim odaklı
+                    iyileştirmeler amaçlanır. UI ne demek diye sorduğumuzda
+                    aklımıza ilk gelecek olan şey kısaca kullanıcı konforu
+                    odaklı görsel tasarımlardır.{" "}
                   </p>
                 </div>
               </div>
