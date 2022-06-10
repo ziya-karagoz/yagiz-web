@@ -85,6 +85,9 @@ body {
 
 .link-block .webinar-content-box {
   padding: 20px;
+  height: 460px;
+  
+  overflow-y: scroll;
   top: -100px;
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
   opacity: 1;
@@ -106,7 +109,7 @@ body {
 
 .webinar-image-container img {
   width: 100%;
-  height: auto;
+  height: 500px;
   border-radius: 5px 5px 0 0;
 }
 

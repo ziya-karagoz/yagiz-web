@@ -1,9 +1,16 @@
 import Slider from "react-slick";
 import "../styles/carouselstyle.scss";
 import React, { useEffect } from "react";
+import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
+import {AiOutlineSetting,AiOutlineDatabase,AiOutlineCloudServer} from "react-icons/ai";
+import {CgWebsite} from "react-icons/cg";
+import {BiCodeCurly} from "react-icons/bi";
+//BiCodeCurly
 
 const Carousel = () => {
+  useEffect(() => {}, []);
+
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
@@ -29,26 +36,56 @@ const Carousel = () => {
   const settings = {
     dots: true,
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 1800,
     pauseOnHover: true,
     centerPadding: "30px",
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1424,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 2,
+        }
+      },
+      {
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   return (
     <div>
       <Slider {...settings} className='carousel-self'>
         <div className='carousel-item'>
-          <FaGithub className='carousel-item-icon' />
+          <AiOutlineCloudServer className='carousel-item-icon' />
           <div className='carousel-item-title'>
-            <h3>Özel Yazılım</h3>
+            <h3>Cloud Server</h3>
           </div>
           <div className='carousel-item-paragraph'>
-            <p className='deneme' style={{ color: "white" }}>
+            <p className='paragraph' style={{ color: "white" }}>
               {" "}
               Paket Programlar ile istediği proje yönetimini sağlayaman firmalar
               için özel olarak yazılımlar geliştiriyoruz.{" "}
@@ -56,33 +93,58 @@ const Carousel = () => {
           </div>
         </div>
         <div className='carousel-item'>
-          <FaGithub className='carousel-item-icon' />
+          <AiOutlineSetting className='carousel-item-icon' />
           <div className='carousel-item-title'>
-            <h3>asdfasafasg</h3>
+            <h3>Service</h3>
           </div>
           <div className='carousel-item-paragraph'>
-            <p style={{ color: "white" }}> asfas</p>
-          </div>
-        </div>
-        <div className='carousel-item'>
-          <FaGithub className='carousel-item-icon' />
-          <div className='carousel-item-title'>
-            <h3>asdfasafasg</h3>
-          </div>
-          <div className='carousel-item-paragraph'>
-            <h3 style={{ color: "white" }}>
+            <p className='paragraph' style={{ color: "white" }}>
               {" "}
-              asdfasafasgasdfasafasgasdfasafasg
-            </h3>
+              Paket Programlar ile istediği proje yönetimini sağlayaman firmalar
+              için özel olarak yazılımlar geliştiriyoruz.{" "}
+            </p>
           </div>
         </div>
         <div className='carousel-item'>
-          <FaGithub className='carousel-item-icon' />
+          <CgWebsite className='carousel-item-icon' />
           <div className='carousel-item-title'>
-            <h3>asdfasafasg</h3>
+            <h3>Web Site</h3>
           </div>
+
           <div className='carousel-item-paragraph'>
-            <p style={{ color: "white" }}> asfas</p>
+            <p className='paragraph' style={{ color: "white" }}>
+              {" "}
+              Paket Programlar ile istediği proje yönetimini sağlayaman firmalar
+              için özel olarak yazılımlar geliştiriyoruz.{" "}
+            </p>
+          </div>
+        </div>
+        <div className='carousel-item'>
+          <AiOutlineDatabase className='carousel-item-icon' />
+          <div className='carousel-item-title'>
+            <h3>Database</h3>
+          </div>
+
+          <div className='carousel-item-paragraph'>
+            <p className='paragraph' style={{ color: "white" }}>
+              {" "}
+              Paket Programlar ile istediği proje yönetimini sağlayaman firmalar
+              için özel olarak yazılımlar geliştiriyoruz.{" "}
+            </p>
+          </div>
+        </div>
+        <div className='carousel-item'>
+          <BiCodeCurly className='carousel-item-icon' />
+          <div className='carousel-item-title'>
+            <h3>Software Support</h3>
+          </div>
+
+          <div className='carousel-item-paragraph'>
+            <p className='paragraph' style={{ color: "white" }}>
+              {" "}
+              Paket Programlar ile istediği proje yönetimini sağlayaman firmalar
+              için özel olarak yazılımlar geliştiriyoruz.{" "}
+            </p>
           </div>
         </div>
       </Slider>
