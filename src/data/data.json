@@ -1,19 +1,24 @@
 {
   "Header": {
     "title": "Merhaba",
-    "paragraph": "Yagız Dijital Dönüşüm Yazılım A.Ş. Web Sitesine Hoş Geldiniz..."
+    "paragraph": "Yagız Yazılım Dijital Dönüşüm A.Ş. Web Sitesine Hoş Geldiniz..."
   },
   "About": {
-    "paragraph": "2021'de kurulan şirketimiz Blockchain teknolojileri üzerine çalışmalar yürütmektedir. Peki nedir Blockchain? İşler, bilgi üzerinden ilerler. Bilgi ne kadar hızlı ve doğru bir şekilde alınırsa o kadar iyidir. Blockchain, yalnızca izni olan ağ üyeleri tarafından erişilebilen ve üzerinde değişiklik yapılamayan bir büyük defterde depolanan anlık, paylaşılan ve tamamen şeffaf bilgiler sağladığı için bilginin sunulması için idealdir. Bir blockchain ağı siparişleri, ödemeleri, hesapları, üretimi ve çok daha fazlasını takip edebilir. Üyeler, gerçeğin tek bir görünümünü paylaştığından bir işlemin baştan sona tüm ayrıntılarını görebilirsiniz; böylece yeni verimliliklerin ve fırsatların yanı sıra daha fazla güvene sahip olursunuz.",
+    "paragraph": "2021'de kurulan şirketimiz Web 3.0 ve Blockchain teknolojileri üzerine çalışmalar yürütmektedir. Peki nedir Blockchain? İşler, bilgi üzerinden ilerler. Bilgi ne kadar hızlı ve doğru bir şekilde alınırsa o kadar iyidir. Blockchain, yalnızca izni olan ağ üyeleri tarafından erişilebilen ve üzerinde değişiklik yapılamayan bir büyük defterde depolanan anlık, paylaşılan ve tamamen şeffaf bilgiler sağladığı için bilginin sunulması için idealdir. Bir blockchain ağı siparişleri, ödemeleri, hesapları, üretimi ve çok daha fazlasını takip edebilir. Üyeler, gerçeğin tek bir görünümünü paylaştığından bir işlemin baştan sona tüm ayrıntılarını görebilirsiniz; böylece yeni verimliliklerin ve fırsatların yanı sıra daha fazla güvene sahip olursunuz.",
     "Why": [
       "Adalet Bakanlığının Adliye çalışmaları",
-      "İhale İşlemleri",
+      "Gelir İdaresi Başkanlığı",
+      "Ticaret Bakanlığı",
+      "Gümrük İdareleri",
+
       "Savunma Sanayi",
       "Tarım Alanında Vazgeçilmez Bir Teknoloji"
     ],
     "Why2": [
       "Dijital Ortamda Ve Otonom Takip",
       "İhalelerin Artık Sanal Ortamda Yapılması",
+      "İhale İşlemleri",
+      "Vergi Daireleri",
       "Tapu Ve Noter işlemleri",
       "Ve Daha Bir Çok Proje.."
     ]
@@ -134,6 +139,6 @@
   },
   "Features": {
     "paragraph1": "Dijitalleşme, yönetim anlayışında ve iş yapış biçiminde köklü değişimler yaratıyor. Yeni nesil teknolojiler ile geliştirilen otomasyonlar büyük avantajlar sağlıyor. Bununla birlikte bu avantajlar özelleştirme ve entegrasyon ihtiyaçlarının karşılanmasını gerektiriyor.",
-    "paragraph2": "Biz Bu durumda devreye girerek blok zinciri teknolojisinin yalnızca kripto piyasasında değil bütün işlemlere entegre edilmesi için gereken teknolojik adımları atarak dijital dönüşümde dünyada aktif rol oynamak istiyoruz."
+    "paragraph2": "Biz Bu durumda devreye girerek web 3.0 ve blok zinciri teknolojisinin yalnızca kripto piyasasında değil bütün işlemlere entegre edilmesi için gereken teknolojik adımları atarak dijital dönüşümde dünyada aktif rol oynamak istiyoruz."
   }
 }

@@ -16,7 +16,7 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 const App = () => {
-  document.title = "Yağız Bilişim";
+  document.title = "Yağız Yazılım";
   const [landingPageData, setLandingPageData] = useState({});
   useEffect(() => {
     setLandingPageData(JsonData);
